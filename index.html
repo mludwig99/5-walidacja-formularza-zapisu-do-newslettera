@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5-walidacja-formularza-zapisu-do-newslettera</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" async></script>
+</head>
+
+<body>
+
+
+    <form action="" name="newsletter-form" id="newsletter-form">
+        <ul class="errors" id="error"></ul>
+        <label for="name" aria-placeholder="Michał Ludwig">Imię i nazwisko</label><br>
+        <input type="text" name="name" id="name"><br>
+        
+        <label for="email">Adres e-mail</label><br>
+        <input type="email" name="email" id="email" placeholder="e-mail"><br>
+        
+        <input type="checkbox" name="agree-1" id="agree-1">
+        <label for="agree-1">Wyrażam zgodę nr 1</label><br>
+
+        <input type="checkbox" name="agree-2" id="agree-2">
+        <label for="agree-2">Wyrażam zgodę nr 2</label><br>
+
+        <input type="checkbox" name="all-agree" id="all-agree">
+        <label for="all-agree">Zaznacz wszystkie zgody</label><br><br>
+
+        <button type="submit" id="sign-up">Wyślij</button>
+
+    </form>
+
+</body>
+
+</html>
